@@ -1,6 +1,6 @@
 /* Basic styles */
   body {
-    font-family: 'Times New Roman';
+    font-family:'Playfair Display';
     font-size: 14px;
     background-color: rgba(250, 199, 32, 0.288);
     margin: 0%;
@@ -21,7 +21,7 @@
   
   a {
     text-decoration: none;
-    color: #000;
+    color: rgba(240, 248, 255, 0.932)
   }
   
   a:hover {
@@ -48,7 +48,8 @@
     padding-top: 0%;
     align-items: center;
     text-align: center;
-    background-color: #ffdd01;
+    background-color: #18224b; 
+    color: aliceblue;
   }
   .ph{
     text-align: center;
@@ -80,7 +81,7 @@
   
   main h2 {
     padding-top: 1%;
-    border-bottom: 1px solid #a19814;
+    border-bottom: 1px solid #5a37c3; 
     padding-bottom: 1%;
   }
   
@@ -95,8 +96,7 @@
   /* Body */
 body{
   box-shadow:none;
-  background-color:#f9b429;
-  background-image:linear-gradient(3deg, rgba(214,199,0,0.53) 0%, #eae851 100%);
+  background-color:#f4e022;
   background-attachment:fixed;
   background-position-x:0%;
   background-position-y:0%;
@@ -110,9 +110,13 @@ body{
  
  /* Footer */
  footer{
-  background-color:#000000;
-  background-image:linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.86) 70%, rgba(91,91,91,0.86) 100%, #5b5b5b 100%);
-  color:rgba(255,255,255,0.77);
+  background-color:#18224b;
+  background-image:linear-gradient(180deg, #18224b 0%, #141d41 70%);
+  color:rgba(209, 209, 209, 0.966);
   line-height:36px;
-  font-size:19px;
+  font-size:15px;
  }
+ html {
+  scroll-behavior: smooth;
+}
+
