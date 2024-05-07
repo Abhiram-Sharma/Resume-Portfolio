@@ -8,6 +8,7 @@ body {
   margin: 0px;
   scroll-behavior: smooth;
   backdrop-filter: brightness(1.6);
+  background-attachment: fixed;
 }
 
 img {
