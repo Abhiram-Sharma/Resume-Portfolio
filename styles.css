@@ -7,6 +7,7 @@ body {
   padding: 0px;
   margin: 0px;
   scroll-behavior: smooth;
+  scrollbar-width:0px;
   backdrop-filter: brightness(1.6);
   background-attachment: fixed;
 }
@@ -57,6 +58,7 @@ footer {
   align-items: center;
   position: absolute;
   padding: 3% 5%;
+  transition-duration: 0.5s;
 }
 
 #particles-js {
@@ -67,14 +69,17 @@ footer {
 }
 
 .header img {
+  transition-duration: 0.5s;
   border-radius: 50%;
+}
+.header img :hover{
+  transform: scale(1.2);
 }
 
 .name h1{
   font-weight: 900;
   font-size: 400%;
 }
-
 /* Main content styles */
 main {
   margin-top: 0rem;
@@ -86,7 +91,17 @@ main {
   align-items: center;
 }
 
+main div{
+  background-color: rgba(236, 240, 1, 0);
+  padding: 1%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+}
+main div:hover{
+  background-color: rgba(235, 223, 1, 0.2);
+  transform: scale(1.02);
+}
 main h2 {
-  padding: 1% 0;
   border-bottom: 1px solid #5a37c3; 
 }
