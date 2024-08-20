@@ -2,7 +2,6 @@
 body {
   font-family: 'Times New Roman';
   font-size: 14px;
-  background-image: url('assets\\CSS\\download.png');
   color: rgb(0, 0, 0);
   padding: 0px;
   margin: 0px;
@@ -81,7 +80,8 @@ footer {
   font-size: 400%;
 }
 /* Main content styles */
-main {
+main {background-image: url('assets\\CSS\\download.png');
+  
   margin-top: 0rem;
   padding: 0% 2%;
   display: flex;
